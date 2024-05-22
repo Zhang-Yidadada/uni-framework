@@ -5,6 +5,14 @@
       <view class="user_name">Meng Zhang</view>
       <view class="user_post">Frontend Engineer</view>
     </view>
+
+    <view>
+      <tui-list-cell :unlined="true" marginTop="20" arrow @click="handleLogoutClick">退出登录</tui-list-cell>
+      <tui-list-cell :unlined="true" marginTop="20" arrow @click="handleLogoutClick">退出登录</tui-list-cell>
+      <tui-list-cell :unlined="true" marginTop="20" arrow @click="handleLogoutClick">退出登录</tui-list-cell>
+      <tui-list-cell :unlined="true" marginTop="20" arrow @click="handleLogoutClick">退出登录</tui-list-cell>
+      <tui-list-cell :unlined="true" marginTop="20" arrow @click="handleLogoutClick">退出登录</tui-list-cell>
+    </view>
   </view>
 </template>
 
@@ -20,7 +28,9 @@ export default {
 
   },
   methods: {
-
+    handleLogoutClick() {
+      this.$Router.replace({ name: 'login' })
+    }
   }
 }
 </script>
@@ -42,7 +52,7 @@ export default {
     .user_name {
       color: #fff;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 40rpx;
       margin-top: 20px;
     }
 

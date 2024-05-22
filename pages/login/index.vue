@@ -38,7 +38,7 @@ export default {
           const { isPass } = res
 
           if (isPass) {
-            this.$Router.push({ name: 'workspace' })
+            this.$Router.replace({ name: 'workspace' })
           }
         })
     }

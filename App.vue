@@ -18,5 +18,7 @@ export default {
 page {
   font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
   height: 100%;
+  background-color: #fafafa;
+  /* font-size: 32rpx; */
 }
 </style>

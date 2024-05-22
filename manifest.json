@@ -59,6 +59,13 @@
           }
         }
       }
+    },
+    "safearea": {
+      //iOS平台的安全区域
+      "background": "#ffffff",
+      "bottom": {
+        "offset": "auto"
+      }
     }
   },
   /* 快应用特有相关 */

@@ -3,6 +3,7 @@ import { __dynamicImportComponent__ } from '@/packages/uni-simple-router'
 export const routes = [
   {
     path: `/`,
+    name: 'login',
     component: __dynamicImportComponent__(`@/pages/login/index.vue`, {
       pageType: `top`
     })

@@ -5,7 +5,7 @@
     <view class="tabbar-main-container">
       <simple-router-view></simple-router-view>
     </view>
-    <tui-tabbar :current="current" backdropFilter backgroundColor="#f8f8f8" :tabBar="tabBar" color="#777"
+    <tui-tabbar :current="current" backdropFilter backgroundColor="#fff" :tabBar="tabBar" color="#777"
       selectedColor="#00a9e0" @click="tabbarSwitch" :isFixed="false"></tui-tabbar>
   </view>
 </template>
