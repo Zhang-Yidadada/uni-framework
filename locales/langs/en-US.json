@@ -1,0 +1,25 @@
+{
+  "username": "用户名",
+  "login": {
+    "message": {
+      "placeholder": {
+        "username": "Please input user name",
+        "password": "Please input password"
+      },
+      "tips": {},
+      "powerby": "Powered by Yida Lab"
+    },
+    "field": {
+      "password": "Password",
+      "username": "Username"
+    },
+    "button": {
+      "login": "Login"
+    }
+  },
+  "system": {
+    "info": {
+      "name": "Pitaya Management"
+    }
+  }
+}

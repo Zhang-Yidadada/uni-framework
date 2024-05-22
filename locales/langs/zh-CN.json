@@ -1,0 +1,29 @@
+{
+  "username": "用户名",
+  "login": {
+    "message": {
+      "placeholder": {
+        "username": "请输入用户名",
+        "password": "请输入密码"
+      },
+      "powerby": "Powered by Yida Lab"
+    },
+    "field": {
+      "username": "用户名",
+      "password": "密码"
+    },
+    "button": {
+      "login": "登录"
+    }
+  },
+  "system": {
+    "info": {
+      "name": "Pitaya Management"
+    },
+    "tabbar": {
+      "setting": "设置",
+      "workspace": "首页",
+      "inbox": "收件箱"
+    }
+  }
+}

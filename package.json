@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.10.3",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^9.3.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "prettier": "^3.2.5"
+  }
+}

@@ -1,0 +1,9 @@
+# dictionary
+unpackage
+node_modules
+
+# editor
+.hbuilderx
+
+# lock file
+*.lock
