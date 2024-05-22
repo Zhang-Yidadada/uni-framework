@@ -1,7 +1,7 @@
 <template>
   <view class="inbox-wrapper">
-    <tui-searchbar :showLabel="false" searchColor="#00a9e0" backgroundColor="#fff"
-      inputBgColor="#ededed"></tui-searchbar>
+    <tui-searchbar :showLabel="false" searchColor="#00a9e0" backgroundColor="#fff" inputBgColor="#ededed"
+      style="box-shadow: 0 1px 10px #ddd;"></tui-searchbar>
     <view class="inbox-list">
       <view v-for="i in 50" :key="i">demo</view>
     </view>
